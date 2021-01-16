@@ -1,4 +1,4 @@
-# A solution to Ledger Donjon's CTF SSSGW Wallet stage
+# A solution to Ledger Donjon's CTF SSSGX Wallet stage
 
 This repository contains a solution to the SSSGX stage of the 2020 Ledger Donjon CTF.
 
@@ -26,7 +26,7 @@ You also need the [Sage](https://www.sagemath.org/) software. Under Debian-based
 $ sudo apt install sagemath
 ~~~
 
-Then, you can run the Python 3 ``attack.py``, specifying the path to the compiled `sss` library:
+Then, you can run the Python 3 script ``attack.py``, specifying the path to the compiled `sss` library:
 
 ~~~
 $ python3 ./attack.py ./sss/build/libsss.so
